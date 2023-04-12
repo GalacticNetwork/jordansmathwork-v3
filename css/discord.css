@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+	background-color: #36393F;
+  color: #5865F2;
+	font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.gameimg {
+	width: 125px;
+	height: 125px;
+	border-radius: 15px;
+	margin: 15px;
+	position: relative;
+	float: left;
+  margin-right: 10px;
+}
+
+.hyperlink {
+  color: #7289DA;
+  text-decoration: none;
+}
+
+.hyperlink:hover {
+  text-decoration: underline;
+}
+
+.gxmelist {
+  margin-left: 1%;
+}
+
+.gxmelist a img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.gxmelist a {
+  display: inline-block;
+  background-color: #5865F2;
+  width: 150px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: #5865F2;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.testimonial-box{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #232529;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: #5865F2;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.name-user span{
+    color: #5865F2;
+    font-size: 0.8rem;
+}
+.reviews{
+    color: #5865F2;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #5865F2;
+}
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+ 
+@media(max-width:1060px){
+    .testimonial-box{
+        width:45%;
+        padding: 10px;
+    }
+}
+@media(max-width:790px){
+    .testimonial-box{
+        width:100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
+::selection{
+    color: #ffffff;
+    background-color: #252525;
+}
+
+button {
+	width: fit-content;
+  height: 30px;
+	border-radius: 10px;
+	color: black;
+  border-style: solid;
+	margin-bottom: 5px;
+	background: #5865F2;
+	cursor: pointer;
+}
+
+button:hover {
+  background: #3845d6;
+  color: white;
+}
+
+.select-box {
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+}
+
+.selected-option {
+  padding: 10px;
+  background-color: #5865F2;
+  border: 1px solid #4552e8;
+  color: black;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #5865F2;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.options li {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.options li:hover {
+  background-color: #3845d6;
+}
+
+.select-box {
+  margin: 0 auto;
+}
+
+#reset {
+  margin-top: 10%;
+}
+
+#home {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input {
+  background-color: #5865F2;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-family: 'Comfortaa', cursive;
+}
