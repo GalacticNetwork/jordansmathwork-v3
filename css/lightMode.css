@@ -10,11 +10,19 @@ body {
 .gameimg {
 	width: 125px;
 	height: 125px;
-	border-radius: 15px;
+	border-radius: 10px;
 	margin: 15px;
 	position: relative;
 	float: left;
   margin-right: 10px;
+  transition: 1s;
+}
+
+.gameimg:hover {
+    transform: scale(1.1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 145px;
+	height: 145px;
 }
 
 .gxmelist {
@@ -33,6 +41,14 @@ body {
   height: 180px;
   border: 1px solid #000;
   border-radius: 5px;
+  transition: 1s;
+}
+
+.gxmelist a:hover {
+    transform: scale(1.1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 170px;
+	height: 200px;
 }
 
 .small {

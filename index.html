@@ -23,7 +23,6 @@
 	<link rel="stylesheet" href="css/darkMode.css">
   <script src="change.js"></script>
 </head>
-
 <body>
 	<div align="center">
      <img src="img/JMW.png" style="
@@ -35,6 +34,7 @@
   margin-right: auto;
   display: block;
   ">
+</div>
 		<h1>Jordan's Math Work</h1>
 		<h2>Play the G<span>ames you want!</h2>
     <h3>Join our <a href="https://dsc.gg/gnetwork" class="hyperlink">Discord!</a></h3>
@@ -52,4 +52,12 @@
     </div>
 </body>
 <script src="script.js"></script>
+  <script>
+    setTimeout(function() {
+    document.getElementById('loadingscreen').classList.add('hide');
+    setTimeout(function() {
+        document.getElementById('loadingscreen').style.display = 'none';
+    }, 100);
+}, 2000);
+  </script>
 </html>
