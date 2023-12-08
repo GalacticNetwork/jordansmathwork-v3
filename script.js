@@ -10,7 +10,7 @@ function ab() {
         iframe.style.margin = "0";
         iframe.referrerpolicy = "no-referrer";
         iframe.allow = "fullscreen";
-        iframe.src = "https://jmw.algebrashelper.com/gs/normal.html";
+        iframe.src = "https://galacticnetwork.github.io/jordansmathwork-v3/gs/normal.html";
         win.document.body.appendChild(iframe);
   }
 
