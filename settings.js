@@ -100,3 +100,7 @@ simple.addEventListener("click", () => {
   localStorage.setItem("Stylesheet", "/css/simple.css");
   location.reload();
 });
+    corn.addEventListener("click", () => {
+      localStorage.setItem("Stylesheet", "/css/ph.css");
+      location.reload();
+    });

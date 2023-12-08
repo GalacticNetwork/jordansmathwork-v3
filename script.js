@@ -1,8 +1,16 @@
 function ab() {
-	var page = open();
-      var iframe = document.createElement('iframe');
-      iframe.style = "position:fixed; top:0%; left: 0%; width:100%; height:100%; border: none; user-select: none;";
-      iframe.src = "https://jmw.tethersmathwebsite.app/gs/normal.html";
-  
-      page.document.body.appendChild(iframe)
-		}
+      var urlObj = new window.URL(window.location.href);
+        win = window.open();
+        win.document.body.style.margin = "0";
+        win.document.body.style.height = "100vh";
+        var iframe = document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.margin = "0";
+        iframe.referrerpolicy = "no-referrer";
+        iframe.allow = "fullscreen";
+        iframe.src = "https://jmw.algebrashelper.com/gs/normal.html";
+        win.document.body.appendChild(iframe);
+  }
+

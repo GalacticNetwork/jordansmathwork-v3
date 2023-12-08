@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
 	background-color: #36393F;
   color: #5865F2;
