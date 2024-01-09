@@ -1,5 +1,6 @@
 # Jordansmathwork
 The flagship game site for Galactic Network
+<h1 align="center"><a href="//github.com/galacticnetwork/jordansmathwork-v4">This respritory is old. go to the new one.</a></h1>
 ### Features:
 - 150+ games
 - about:blank systems
