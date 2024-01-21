@@ -10,7 +10,7 @@ function ab() {
         iframe.style.margin = "0";
         iframe.referrerpolicy = "no-referrer";
         iframe.allow = "fullscreen";
-        iframe.src = "https://galacticnetwork.github.io/jordansmathwork-v3/gs/cloaked.html";
+        iframe.src = "https://jordansmathwork-v3.pages.dev/";
         win.document.body.appendChild(iframe);
   }
 
