@@ -77,30 +77,30 @@ const incognito = document.getElementById("incognito");
 const simple = document.getElementById("simple");
 
 light.addEventListener("click", () => {
-  localStorage.setItem("Stylesheet", "css/lightMode.css");
+  localStorage.setItem("Stylesheet", "/css/lightMode.css");
   location.reload();
 });
 
 dark.addEventListener("click", () => {
-  localStorage.setItem("Stylesheet", "css/darkMode.css");
+  localStorage.setItem("Stylesheet", "/css/darkMode.css");
   location.reload();
 });
 
 discord.addEventListener("click", () => {
-  localStorage.setItem("Stylesheet", "css/discord.css");
+  localStorage.setItem("Stylesheet", "/css/discord.css");
   location.reload();
 });
 
 incognito.addEventListener("click", () => {
-  localStorage.setItem("Stylesheet", "css/incognito.css");
+  localStorage.setItem("Stylesheet", "/css/incognito.css");
   location.reload();
 });
 
 simple.addEventListener("click", () => {
-  localStorage.setItem("Stylesheet", "css/simple.css");
+  localStorage.setItem("Stylesheet", "/css/simple.css");
   location.reload();
 });
     corn.addEventListener("click", () => {
-      localStorage.setItem("Stylesheet", "css/ph.css");
+      localStorage.setItem("Stylesheet", "/css/ph.css");
       location.reload();
     });
