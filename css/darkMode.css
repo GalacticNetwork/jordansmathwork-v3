@@ -9,6 +9,9 @@ body {
 	font-family: 'Comfortaa', cursive;
   text-align: center;
 }
+a {
+	text-decoration: none;
+}
 
 .server-container {
   display: flex;
