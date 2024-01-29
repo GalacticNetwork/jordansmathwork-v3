@@ -20,6 +20,9 @@ body {
   margin-right: 10px;
   transition: 1s;
 }
+p {
+	text-decoration: none;
+}
 
 .gameimg:hover {
     transform: scale(1.1);
