@@ -10,7 +10,7 @@ function ab() {
         iframe.style.margin = "0";
         iframe.referrerpolicy = "no-referrer";
         iframe.allow = "fullscreen";
-        iframe.src = "https://jordansmathwork-v3.pages.dev/gs/normal";
+        iframe.src = "/gs/normal.html";
         win.document.body.appendChild(iframe);
   }
 
